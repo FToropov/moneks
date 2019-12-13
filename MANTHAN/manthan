@@ -1,0 +1,296 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .zag img {
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .panel-body {
+            padding: 10px 10px;
+        }
+
+        .panel-group {
+            margin-bottom: 15px;
+        }
+
+        .list-group {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+
+</head>
+
+    <div class="col-md-12 zag">
+        <img width="50%" class="img-rounded img-responsive center-block" src="/files/MANTHAN/images/manthan_logo.jfif"
+            alt="">
+    </div>
+
+    <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a data-toggle="tab" href="#panel1">Добро пожаловать</a></li>
+        <!-- <li><a data-toggle="tab" href="#panel2">Обучение</a></li> -->
+        <li><a data-toggle="tab" href="#panel3">Документы/инструкции</a></li>
+        <li><a data-toggle="tab" href="#panel4">Часто задаваемые вопросы</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="panel1" class="tab-pane fade in active">
+            <div class="container">
+                <h3>Добро пожаловать, <%=OpenDoc(UrlFromDocID(curUserID)).TopElem.firstname%>!</h3>
+                <br>
+                <p>Добро пожаловать в раздел обучения системы Manthan.
+                    Используйте навигацию по вкладкам выше, чтобы попасть в нужную секцию с обучающими материалами.</p>
+                <br>
+                <p><strong>Документы/инструкции</strong> - Доступ к последним версиям справочных руководств, инструкций
+                    и другой полезной документации.</p>
+                <br>
+                <p><strong>Часто задаваемые вопросы</strong> - Здесь вы можете найти ответы на часто задаваемые
+                    вопросы, которые помогут вам при использовании системы.</p>
+
+            </div>
+        </div>
+
+        <!-- <div id="panel2" class="tab-pane fade">
+            <div class="container">
+                <h3>Обучение</h3>
+                <p> <img class="img-rounded img-responsive center-block" src="files/MANTHAN/images/construction-worker.png" alt=""></p>
+            </div>
+        </div> -->
+
+        <div id="panel3" class="tab-pane fade">
+            <div class="container">
+                <h3>Справочные документы</h3>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="headingOne" role="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapseOne" aria-expanded="false"
+                            aria-controls="collapseOne">
+                            <h4 class="panel-title">
+                                <a>
+                                    Ресторанный бизнес
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="files/MANTHAN/documents/food/analyst_navigation_training_guide_Food_RU.pdf"
+                                        class="list-group-item" target="_blank">Базовая навигация</a>
+                                    <a href="files/MANTHAN/documents/food/feature_functionality_training_guide_Food_RU.pdf"
+                                        class="list-group-item" target="_blank">Функциональность</a>
+                                    <a href="files/MANTHAN/documents/food/metadata_training_guide_Food_RU.pdf"
+                                        class="list-group-item" target="_blank">Метаданные</a>
+                                    <a href="files/MANTHAN/documents/food/self_service_training_guide_Food_RU.pdf"
+                                        class="list-group-item" target="_blank">Самообслуживание</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="headingTwo" role="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            <h4 class="panel-title">
+                                <a>
+                                    Розничный бизнес
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="files/MANTHAN/documents/non_food/analyst_navigation_training_guide_NonFood_RU.pdf"
+                                        class="list-group-item" target="_blank">Базовая навигация</a>
+                                    <a href="files/MANTHAN/documents/non_food/feature_functionality_training_guide_NonFood_RU.pdf"
+                                        class="list-group-item" target="_blank">Функциональность</a>
+                                    <a href="files/MANTHAN/documents/non_food/metadata_training_guide_NonFood_RU.pdf"
+                                        class="list-group-item" target="_blank">Метаданные</a>
+                                    <a href="files/MANTHAN/documents/non_food/self_service_training_guide_NonFood_RU.pdf"
+                                        class="list-group-item" target="_blank">Самообслуживание</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="headingThree" role="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <h4 class="panel-title">
+                                <a>
+                                    Клиентская аналитика
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="files/MANTHAN/documents/customer_intelligence/analyst_navigation_training_guide_Marketing_RU.pdf"
+                                        class="list-group-item" target="_blank">Базовая навигация</a>
+                                    <a href="files/MANTHAN/documents/customer_intelligence/feature_functionality_training_guide_Marketing_RU.pdf"
+                                        class="list-group-item" target="_blank">Функциональность</a>
+                                    <a href="files/MANTHAN/documents/customer_intelligence/metadata_training_guide_Marketing_RU.pdf"
+                                        class="list-group-item" target="_blank">Метаданные</a>
+                                    <a href="files/MANTHAN/documents/customer_intelligence/micro_segment_training_guide_Marketing_RU.pdf"
+                                        class="list-group-item" target="_blank">Микросегментация</a>
+                                    <a href="files/MANTHAN/documents/customer_intelligence/self_service_training_guide_Marketing_RU.pdf"
+                                        class="list-group-item" target="_blank">Самообслуживание</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour" role="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            <h4 class="panel-title">
+                                <a>
+                                    Общие документы
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="files/MANTHAN/documents/general_documents/access_request_Manthan.pdf"
+                                        class="list-group-item" target="_blank">Заявка на доступ к Manthan</a>
+                                    <a href="files/MANTHAN/documents/general_documents/incident_statement_Manthan.pdf"
+                                        class="list-group-item" target="_blank">Сообщение об инциденте в Manthan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="panel4" class="tab-pane fade">
+            <div class="container">
+                <h3>Часто задаваемые вопросы</h3>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong>1. Какой браузер рекомендуется использовать при использовании BI и
+                            Analytics?</strong></div>
+                    <div class="panel-body">
+                        Рекомендуемый браузер – Chrome
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong>2. Во-сколько данные доступны для отчетности?</strong></div>
+                    <div class="panel-body">
+                        Данные обновляются каждый день в 9 часов утра по московскому времени. Если данные о продажах
+                        за ночь не обновились, вы будете уведомлены об этом уведомлением в верхней части экрана.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>3. Как узнать больше информации о каждом из отчетных
+                            показателей?</strong></div>
+                    <div class="panel-body">
+                        На вкладке «Документы/инструкции» можно найти документ Excel под названием «Словарь данных»
+                        или «Dictionary», в котором показаны все определения мер и фильтров.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>4. Должен ли я быть в сети Alshaya для доступа к инструменту BI
+                            и
+                            аналитики?</strong></div>
+                    <div class="panel-body">
+                        Вы должны быть в сети Alshaya, чтобы получить доступ к системе.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>5. Какое время истечения сеанса с системой?</strong> </div>
+                    <div class="panel-body">
+                        По умолчанию 30 минут, в течение которых сеанс может оставаться бездействующим до
+                        автоматического закрытия соединения с сервером.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>6. Можете ли вы сохранить выражение фильтра, где оно сохраняется
+                            и как
+                            его получить?</strong></div>
+                    <div class="panel-body">
+                        При создании выражения дайте ему имя и нажмите «Сохранить и применить». Выражение сохраняется
+                        в окне «Связанные метаданные» в разделе «Правила» на вкладке «Значения по умолчанию». Просто
+                        дважды щелкните по нему, чтобы использовать его снова.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>7. Могу ли я создать новый отчет по KPI для себя?</strong></div>
+                    <div class="panel-body">
+                        Обычный пользователь не может создавать новые отчеты KPI. Новые отчеты KPI будут согласованы
+                        бизнесом и созданы определенной группой пользователей. </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>8. Я случайно удалил один из параметров фильтра в окне
+                            «Выражения и
+                            фильтр». Как мне вернуть его обратно</strong>?</div>
+                    <div class="panel-body">
+                        Просто выйдите из системы, а затем снова войдите в систему, и все параметры фильтра по
+                        умолчанию появятся снова </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>9. В фильтрах есть опция фильтрации по последним x неделям.
+                            Включает ли
+                            этот фильтр последнюю неделю с сегодняшней даты?</strong></div>
+                    <div class="panel-body">
+                        Эта опция отфильтровывает данные от сегодняшней даты (то есть за последние 28 дней).
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>10. Почему я не вижу все показатели в сетке данных в отчете
+                            KPI?</strong></div>
+                    <div class="panel-body">
+                        Некоторые отчеты могут иметь значок следующей страницы в правой части полосы прокрутки
+                        (небольшая синяя стрелка вправо). Это указывает на то, что есть еще одна страница мер справа.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>11. Можем ли мы установить несколько представлений как
+                            «Избранное» в одном
+                            отчете KPI?</strong></div>
+                    <div class="panel-body">
+                        Даже если мы сохраним несколько представлений, Избранное не сохранит никаких изменений, оно
+                        просто приведет вас к отчету KPI с представлением по умолчанию
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading"> <strong>12. Планирование электронной почты: если несколько отчетов KPI
+                            запланированы как электронная почта ежедневно, например, на 9:00, отправляет ли система BI
+                            индивидуальную электронную почту на отчет или все отчеты, запланированные на 9:00 ежедневно,
+                            отправляются в пределах одной электронной почты?</strong></div>
+                    <div class="panel-body">
+                        Ожидается отправка нескольких отчетов в одном письме с максимальным размером 2 МБ.
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
