@@ -69,29 +69,35 @@
                         </a>
                     </div>
 
-•              Встреча с Горбачевым
-•              Достать ножи
-•              Лев Яшин. Вратарь моей мечты              
-•              Решала. Нулевые
-•              Давай разведемся!
-•              Аванпост
-•              Аббатство Даунтон
-•              Атлантика
-•              Тварь
-•              Ford против Ferrari
-•              Хороший лжец        
-•              Во всё тяжкое
-•              Грех
-•              Верность
-•              Дитя погоды
-•              Малефисента: Владычица тьмы
-•              Текст
-•              Француз
-•              Арахисовый сокол
-•              Джокер
-•              Дождливый день в Нью-Йорке
-•              Король Лев
 
+∙             Холодное сердце 2
+∙             Выпьем за любовь 
+∙             Отверженные
+
+∙             21 мост
+∙             Сиротский Бруклин
+∙             Война токов
+∙             Рождество на двоих
+∙             Ржев
+∙             Озеро диких гусей
+∙             Одной волшебной ночью
+∙             Собаки не носят штанов
+∙             Встреча с Горбачевым
+∙             Достать ножи
+∙             Лев Яшин. Вратарь моей мечты
+∙             Давай разведемся!
+∙             Аббатство Даунтон
+∙             Атлантика
+∙             Ford против Ferrari
+∙             Во всё тяжкое
+∙             Грех
+∙             Верность
+∙             Дитя погоды
+∙             Малефисента: Владычица тьмы
+∙             Текст
+∙             Француз
+∙             Джокер
+∙             Король Лев 24
 
 
 
@@ -100,37 +106,51 @@
 ∙             Война токов
 ∙             Рождество на двоих
 ∙             Ржев
-∙             Курьер
+∙             Курьер !!!!
 ∙             Озеро диких гусей
 ∙             Одной волшебной ночью
 ∙             Собаки не носят штанов
-
 ∙             Встреча с Горбачевым
 ∙             Достать ножи
-∙             Лев Яшин. Вратарь моей мечты
-∙             Решала. Нулевые
-∙             Давай разведемся!
-∙             Аванпост
+∙             Лев Яшин. Вратарь моей мечты            
+∙             Давай разведемся! 
 ∙             Аббатство Даунтон
-∙             Атлантика
-∙             Тварь
-∙             Ford против Ferrari
-∙             Хороший лжец
+∙             Атлантика  
+∙             Ford против Ferrari         
 ∙             Во всё тяжкое
 ∙             Грех
 ∙             Верность
 ∙             Дитя погоды
 ∙             Малефисента: Владычица тьмы
 ∙             Текст
-∙             Француз
-∙             Арахисовый сокол
+∙             Француз   
 ∙             Джокер
-∙             Дождливый день в Нью-Йорке
 ∙             Король Лев
 
 
  ------------------------------------------------------------------------------------------------------------------------------------ -->
-                <!-- 21 мост -->
+ <!-- Холодное сердце 2 -->
+                    <div class="col-xs-6 col-sm-3">
+                        <a class="thumbnail" href="ссылка">
+                            <img class="img-rounded img-responsive" src="files/KARO/постер.jpeg" alt="">
+                        </a>
+                    </div>
+                    
+                    <!-- Выпьем за любовь -->
+                    <div class="col-xs-6 col-sm-3">
+                        <a class="thumbnail" href="ссылка">
+                            <img class="img-rounded img-responsive" src="files/KARO/постер.jpeg" alt="">
+                        </a>
+                    </div>
+
+                    <!-- Отверженные -->
+                    <div class="col-xs-6 col-sm-3">
+                        <a class="thumbnail" href="ссылка">
+                            <img class="img-rounded img-responsive" src="files/KARO/постер.jpeg" alt="">
+                        </a>
+                    </div>
+ 
+ <!-- 21 мост -->
                 <div class="col-xs-6 col-sm-3">
                     <a class="thumbnail" href="https://www.kinopoisk.ru/film/1174226/">
                         <img class="img-rounded img-responsive" src="files/KARO/21most.jpeg" alt="">
@@ -162,13 +182,6 @@
                 <div class="col-xs-6 col-sm-3">
                     <a class="thumbnail" href="https://www.kinopoisk.ru/film/1313591/">
                         <img class="img-rounded img-responsive" src="files/KARO/rzhev.jpeg" alt="">
-                    </a>
-                </div>
-
-                <!-- Курьер -->
-                <div class="col-xs-6 col-sm-3">
-                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1207545/">
-                        <img class="img-rounded img-responsive" src="files/KARO/kurer.jpeg" alt="">
                     </a>
                 </div>
 
@@ -214,24 +227,10 @@
                     </a>
                 </div>
 
-                <!-- Решала. Нулевые -->
-                <div class="col-xs-6 col-sm-3">
-                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1280515/">
-                        <img class="img-rounded img-responsive" src="files/KARO/reshala.jpeg" alt="">
-                    </a>
-                </div>
-
                 <!-- Давай разведемся! -->
                 <div class="col-xs-6 col-sm-3">
                     <a class="thumbnail" href="https://www.kinopoisk.ru/film/1192366/">
                         <img class="img-rounded img-responsive" src="files/KARO/davay.jpeg" alt="">
-                    </a>
-                </div>
-
-                <!-- Аванпост -->
-                <div class="col-xs-6 col-sm-3">
-                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1108683/">
-                        <img class="img-rounded img-responsive" src="files/KARO/avanpost.jpeg" alt="">
                     </a>
                 </div>
 
@@ -249,24 +248,10 @@
                     </a>
                 </div>
 
-                <!-- Тварь -->
-                <div class="col-xs-6 col-sm-3">
-                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1138880/">
-                        <img class="img-rounded img-responsive" src="files/KARO/tvar.jpeg" alt="">
-                    </a>
-                </div>
-
                 <!-- Ford против Ferrari -->
                 <div class="col-xs-6 col-sm-3">
                     <a class="thumbnail" href="https://www.kinopoisk.ru/film/835086/">
                         <img class="img-rounded img-responsive" src="files/KARO/fordvsferrari.jpeg" alt="">
-                    </a>
-                </div>
-
-                <!-- Хороший лжец -->
-                <div class="col-xs-6 col-sm-3">
-                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1115125/">
-                        <img class="img-rounded img-responsive" src="files/KARO/lzhec.jpeg" alt="">
                     </a>
                 </div>
 
@@ -319,24 +304,10 @@
                     </a>
                 </div>
 
-                <!-- Арахисовый сокол -->
-                <div class="col-xs-6 col-sm-3">
-                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/925389/">
-                        <img class="img-rounded img-responsive" src="files/KARO/sokol.jpeg" alt="">
-                    </a>
-                </div>
-
                 <!-- Джокер -->
                 <div class="col-xs-6 col-sm-3">
                     <a class="thumbnail" href="https://www.kinopoisk.ru/film/1048334/"> <img
                             class="img-rounded img-responsive" src="files/KARO/joker.jpeg" alt="">
-                    </a>
-                </div>
-
-                <!-- Дождливый день в Нью-Йорке -->
-                <div class="col-xs-6 col-sm-3">
-                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1047626/"> <img
-                            class="img-rounded img-responsive" src="files/KARO/rain_NY.jpeg" alt="">
                     </a>
                 </div>
 
