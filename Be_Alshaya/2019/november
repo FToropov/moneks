@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .image {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <!-- <div class="row"> -->
+        <div class=" image col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8">
+            <img src="NEW_PORTAL/be_alshaya/background-alshaya.png"
+                class="img-responsive img-rounded center-block img-fluid" alt="No image">
+        </div>
+
+        <!-- <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img width="70%" src="/files/businessman.png" class="img-responsive img-rounded center-block"
+                    alt="No image">
+                <hr>
+            </div> -->
+        <!-- <div class="row"> -->
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Думай масштабно. Действуй скромно. Будь собой.
+                </div>
+                <div class="panel-body">
+                    <h4>В индивидуальной номинации победила Крёхова Виктория Валерьевна, стилист Jo Malone
+                        Санкт-Петербург Галерея.</h4>
+                    <p>
+                        В ночь на 29 октября в Jo Malone Санкт-Петербург ТЦ Галерея проходила годовая инвентаризация.
+                        Виктория изъявила желание помочь управляющей. Всё было сделано оперативно, однако из-за
+                        системной ошибки не удавалось закрыть документы до 3:00 ночи. Оказалось, что закрыть получится
+                        только на следующий день, сразу после открытия магазина. Виктория сама вызвалась приехать
+                        обратно на работу к 8:30 и закончить работу с документами под руководством IT специалистов,
+                        зная, что у управляющей нет возможности приехать самой. Утром ошибка была устранена и всё
+                        закончилось благополучно. Подчеркнем, что Виктория уехала с работы в 3:00, а в 8:30 была уже
+                        снова в магазине, хотя живёт достаточно далеко и дорога в одну сторону занимает около часа.
+                        Благодаря Виктории магазину не пришлось повторно проводить годовую инвентаризацию, за что
+                        коллеги выразили ей большую благодарность.
+                        <br>
+                        В качестве приза Виктория получит премию, которая будет перечислена в ближайшее время.
+                    </p>
+                    <hr>
+                    <h4>The Champion in individual nomination is Krekhova Viktoriya Valerevna, Jo Malone
+                        Saint-Petersburg Galereya.
+                    </h4>
+                    <p>
+                        October 29th there was an annual inventory in Jo malone St. Petersburg shopping center Gallery.
+                        Viktoriya helped the Store Manager. The process has finished very soon, but due to a system
+                        error it was not possible to close the documents until 3: 00 am. It turned out that closure must
+                        be done the next day, immediately after the opening of the store. Viktoriya herself suggested to
+                        come back to work at 8: 30 and close the inventory document under the guidance of IT
+                        specialists, as she knew that the Store Manager can not come herself. In the morning the error
+                        was eliminated. We emphasize that Viktoriya left the shop at 3: 00, and was already back in the
+                        store at 8: 30, though she lives far enough and it takes about an hour to get there. Thanks to
+                        Viktoriya, the store did not have to redo the annual inventory, for which colleagues expressed
+                        their gratitude to her.
+                        <br>
+                        Viktoriya will receive the Special Bonus, which will be transferred to her bank accounts at earliest.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="row"> -->
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Думай масштабно. Действуй скромно. Будь собой.
+                </div>
+                <div class="panel-body">
+                    <h4>Командой-Чемпионом по воплощению ценностей в октябре стал коллектив магазина Mothercare Казань
+                        МЕГА.</h4>
+                    <p>
+                        22 ноября группа воров посетила магазин Mothercare МЕГА Казань. Благодаря быстрой реакции
+                        сотрудников магазина, была предотвращена кража 8 курток Gusti по розничной цене 7999 рублей.
+                        Коллеги на ежедневной основе ведут активную работу в торговом зале по максимизации продаж и
+                        минимизации потерь, за что мы благодарим их от лица Компании.
+                        Мы рады поздравить коллектив магазина и сообщить, что призом для них станет корпоративная
+                        вечеринка в выбранном ими кафе или ресторане. <br>
+                        Мы рады поздравить коллектив магазина и сообщить, что призом для них станет корпоративная
+                        вечеринка в выбранном ими кафе или ресторане.
+                    </p>
+                    <hr>
+                    <h4>The Team Champion of October is Mothercare Kazan MEGA.</h4>
+                    <p>
+                        On November 22th, a group of thieves visited Mothercare MEGA Kazan store. Thanks to the quick
+                        reaction of the store staff, the theft of 8 Gusti jackets at a retail price of 7999 rubles was
+                        prevented. Colleagues are actively working in the trading floor to maximize sales and minimize
+                        losses on a daily basis, for what we thank them on behalf of the Company.
+                        <br>
+                        We are happy to congratulate the team and announce that they will be rewarded with the Corporate
+                        Party in the café or restaurant of their choice.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img width="70%" src="/files/team.png" class="img-responsive img-rounded center-block" alt="No image">
+                <hr>
+            </div>
+         
+        </div> -->
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8">
+            <a type="button btn " class="btn btn-success center-block"
+                href="NEW_PORTAL/be_alshaya/2019/2019_11/Be_Alshaya_2019_11.xls">Скачать таблицу номинантов</a> 
+                <br>
+                
+            <!-- <div class="container"> -->
+                <div class="well well-sm text-center">
+                    В голосовании участвуют карточки, в которых содержится конкретное и детальное описание достижений
+                    сотрудников исходя из ценностей Компании
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    </div>
+</body>
