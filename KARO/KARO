@@ -45,7 +45,7 @@
                                 target="blank">Скачать сертификат</a>
                         </p>
                         <p>
-                            С <em> 12 декабря </em> сертификат на скидку будет распространяться на следующие фильмы (на
+                            С <em> 18 декабря </em> сертификат на скидку будет распространяться на следующие фильмы (на
                             фильмы,
                             добавленные ранее, скидка также сохраняется):
                         </p>
@@ -129,28 +129,28 @@
 
 
  ------------------------------------------------------------------------------------------------------------------------------------ -->
- <!-- Холодное сердце 2 -->
-                    <div class="col-xs-6 col-sm-3">
-                        <a class="thumbnail" href="ссылка">
-                            <img class="img-rounded img-responsive" src="files/KARO/постер.jpeg" alt="">
-                        </a>
-                    </div>
-                    
-                    <!-- Выпьем за любовь -->
-                    <div class="col-xs-6 col-sm-3">
-                        <a class="thumbnail" href="ссылка">
-                            <img class="img-rounded img-responsive" src="files/KARO/постер.jpeg" alt="">
-                        </a>
-                    </div>
+                <!-- Холодное сердце 2 -->
+                <div class="col-xs-6 col-sm-3">
+                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/903831/">
+                        <img class="img-rounded img-responsive" src="files/KARO/holod.jpeg" alt="">
+                    </a>
+                </div>
 
-                    <!-- Отверженные -->
-                    <div class="col-xs-6 col-sm-3">
-                        <a class="thumbnail" href="ссылка">
-                            <img class="img-rounded img-responsive" src="files/KARO/постер.jpeg" alt="">
-                        </a>
-                    </div>
- 
- <!-- 21 мост -->
+                <!-- Выпьем за любовь -->
+                <div class="col-xs-6 col-sm-3">
+                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1069658/">
+                        <img class="img-rounded img-responsive" src="files/KARO/zalubov.jpeg" alt="">
+                    </a>
+                </div>
+
+                <!-- Отверженные -->
+                <div class="col-xs-6 col-sm-3">
+                    <a class="thumbnail" href="https://www.kinopoisk.ru/film/1256262/">
+                        <img class="img-rounded img-responsive" src="files/KARO/otverzhenye.jpeg" alt="">
+                    </a>
+                </div>
+
+                <!-- 21 мост -->
                 <div class="col-xs-6 col-sm-3">
                     <a class="thumbnail" href="https://www.kinopoisk.ru/film/1174226/">
                         <img class="img-rounded img-responsive" src="files/KARO/21most.jpeg" alt="">
